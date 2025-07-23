@@ -132,6 +132,11 @@
         transform: translateY(0);
       }
 
+      .agendamentos {
+        text-align: center;
+      }
+
+
       .instagram-section {
         background-color: #f9f9f9;
         padding: 2rem 0;
@@ -201,8 +206,12 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
-        gap: 2rem;
-        margin-bottom: 0px;
+        gap: 3rem;
+      }
+
+      .metodo-leveza .container {
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
       }
 
       .metodo-leveza__text {
@@ -223,35 +232,42 @@
       }
 
       .metodo-leveza__image {
-        padding-bottom: 0 !important;
-        margin-bottom: 0 !important;
         max-width: 100%;
         height: auto;
         flex: 1;
         text-align: center;
       }
 
-      /*.metodo-leveza__image img {
+      .metodo-leveza__image img {
+        display: block;
+        margin: 0;
+        padding: 0;
+        line-height: 0;
+        height: auto;
+      }
+
+      /* .metodo-leveza__image img {
         max-width: 100%;
         height: auto;
         border-radius: 12px;
         box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-      }*/
+      } */
 
       .servicos h5 {
         text-align: center;
         font-family: "Tangerine", cursive;
         font-weight: 700;
-        font-size: 4.5rem;
+        font-size: 5rem;
         color: #2c1e17; /* marrom elegante, ajuste conforme sua paleta */
+        line-height: 6rem;
       }
 
       .servicos h4 {
         text-align: center;
         font-family: "Tangerine", cursive;
-        font-weight: 600;
-        font-size: 3.2rem;
+        font-weight: 500;
+        font-size: 3rem;
         color: #9e8d7f; /* bege/dourado claro, ajuste conforme seu design */
         margin-bottom: -10px; /* para deixar mais próximo do h3 */
-        
+       
       }
